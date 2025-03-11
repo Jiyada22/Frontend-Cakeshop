@@ -183,7 +183,7 @@ app.get("/logout",  async (req, res) => {
 
 //------------------------------------------------------------------------------------------
 
-// about
+// aboutt
 app.get("/about", async (req, res) => {
   try {
     if (req.cookies.userSession != null) {
@@ -563,7 +563,3 @@ app.get("/delete_customer/:id", async (req, res) => {
 app.listen(5500, () => {
     console.log("server started on port 5500");
 });
-
-  
-
-

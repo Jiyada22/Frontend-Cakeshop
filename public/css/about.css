@@ -6,7 +6,7 @@ body{
 }
 
 header {
-  background-color: #fed330;
+  background-color: #f0b5d7;
   color: black;
   padding: 20px;
   text-align: center;
@@ -29,7 +29,7 @@ nav ul li a {
 
 
 .custom-button {
-    background-color: #fed330; /* สีน้ำตาล */
+    background-color: #ad1457; /* สีน้ำตาล */
     color: black; /* สีของตัวอักษร */
     border: none; /* ไม่มีเส้นขอบ */
     padding: 10px 20px; /* ระยะห่างภายใน */
@@ -43,7 +43,7 @@ nav ul li a {
   }
 
   .card-header {
-    background-color: #fed330; /* กำหนดสีเหลืองให้กับพื้นหลัง */
+    background-color: #ee72bb; /* กำหนดสีเหลืองให้กับพื้นหลัง */
     color: black; /* กำหนดสีตัวอักษร */
     padding: 10px; /* กำหนดขอบของพื้นหลัง */
     text-align: center; /* จัดข้อความกึ่งกลาง */
@@ -57,7 +57,7 @@ nav ul li a {
   }
 
   .btn-add-to-cart {
-    background-color: #fed330;
+    background-color: #b92264;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -65,7 +65,7 @@ nav ul li a {
 }
 
 footer {
-  background-color: #fed330;
+  background-color: #f0b5d7;
   color: black;
   padding: 20px;
   text-align: center;

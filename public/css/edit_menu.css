@@ -5,6 +5,20 @@ body{
   font-style: normal;
 }
 
+.custom-button {
+  background-color: #ad1457; /* สีน้ำตาล */
+  color: white; /* สีของตัวอักษร */
+  border: none; /* ไม่มีเส้นขอบ */
+  padding: 10px 20px; /* ระยะห่างภายใน */
+  text-align: center; /* จัดข้อความตรงกลาง */
+  text-decoration: none; /* ไม่มีการเพิ่มเส้นใต้ข้อความ */
+  display: inline-block; /* แสดงเป็นบล็อกอินไลน์ */
+  font-size: 16px; /* ขนาดตัวอักษร */
+  margin: 4px 2px; /* ระยะห่างของขอบ */
+  cursor: pointer; /* ปลายเมาส์แสดงเป็นปุ่ม */
+  border-radius: 8px; /* มุมโค้งขอบ */
+}
+
 h1 {
   text-align: center;
   margin-top: 20px;
@@ -32,7 +46,7 @@ input[type="submit"] {
 
 /* Style for the submit button */
 input[type="submit"] {
-  background-color: #fed330;
+  background-color: #b92264;
   color: white;
   cursor: pointer;
 }
@@ -43,7 +57,7 @@ a {
   text-align: center;
   margin-top: 20px;
   text-decoration: none;
-  color: #fed330;
+  color: #b92264;
 }
 
 
@@ -52,7 +66,7 @@ h1 {
   margin-top: 30px;
   margin-bottom: 50px;
   font-size: 36px;
-  color: #fed330;
+  color: #b92264;
 }
 
 table {
@@ -66,7 +80,7 @@ padding: 16px;
 }
 
 th {
-background-color: #fed330;
+background-color: #b92264;
 color: white;
 font-weight: 600;
 text-transform: uppercase;
@@ -79,7 +93,7 @@ background-color: #f5f5f5;
 form {
 width: 50%;
 margin: auto;
-border: 2px solid #fed330;
+border: 2px solid #b92264;
 padding: 20px;
 border-radius: 5px;
 }
@@ -131,7 +145,7 @@ transition: border-bottom-color 0.2s;
 }
 
 a:hover {
-border-bottom-color: #fed330;
+border-bottom-color: #b92264;
 }
 
 .link-center {
@@ -142,7 +156,7 @@ margin-top: 20px;
 .link-center a {
 display: inline-block;
 margin: 10px;
-color: #fed330;
+color: #b92264;
 text-decoration: none;
 font-size: 18px;
 font-weight: 600;
@@ -151,7 +165,7 @@ transition: border-bottom-color 0.2s;
 }
 
 .link-center a:hover {
-border-bottom-color: #fed330;
+border-bottom-color: #b92264;
 }
 
 #addStoreModal {

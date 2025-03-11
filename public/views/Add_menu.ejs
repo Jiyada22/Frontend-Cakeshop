@@ -38,11 +38,11 @@
                 <button type="button" style="margin-left: 20px;" id="addStoreBtn">Add New Store</button>
                 <br><br>
 
-                <input type="submit" value="OK">
+                <!--<input type="submit" class="custom-button" value="OK">-->
+                <Center><button type="submit" class="custom-button">OK</button></Center>
             </form>
         </div>
     <center><a href="/menu_employee">Back to List</a></center>
-
     <div id="addStoreModal" style="display: none;">
         <h2>Add New Store</h2>
         <form action="/add_new_store" method="post">
@@ -57,13 +57,11 @@
     </div>
 </body>
 </html>
-
 <script>
     document.getElementById('addStoreBtn').addEventListener('click', function() {
         document.getElementById('addStoreModal').style.display = 'block';
         document.getElementById('modalBackdrop').style.display = 'block'; 
     });
-
     function closeModal() {
         document.getElementById('addStoreModal').style.display = 'none';
         document.getElementById('modalBackdrop').style.display = 'none'; 
