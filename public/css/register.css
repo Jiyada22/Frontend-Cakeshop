@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #880e4f;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.password {
+    -webkit-text-security: disc;
+}
+
+.custom-button {
+    padding: 10px;
+    background-color: #ad1457;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.custom-button:hover {
+    background-color: #880e4f;
+}
+
+/* ปรับให้ "Back to Login" อยู่ข้างล่างกรอบ */
+.back-link {
+    margin-top: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #ad1457;
+}
