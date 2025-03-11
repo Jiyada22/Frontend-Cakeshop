@@ -28,8 +28,8 @@ const storage2 = multer.diskStorage({
 const upload = multer({ storage: storage });
 const upload2 = multer({ storage: storage2 });
 
-const base_url = "http://localhost:3000";
-//const base_url = "http://  Ruk-Com";
+//const base_url = "http://localhost:3000";
+const base_url = "http://10.104.21.207";
 
 app.set("views", path.join(__dirname, "/public/views"));
 app.set("view engine", "ejs");
